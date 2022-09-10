@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Determines either greater than 5, is less than 6, or is 0
+ * main - The last digit
  * @void: Empty parameter list for main.
  *
  * Description: Prints last digit of random number and tells
@@ -14,7 +14,7 @@
 int main(void)
 {
 
-	int n,
+	int n;
 
 	srand(time(0));
 
@@ -23,7 +23,7 @@ int main(void)
 	printf("Last digit of %d is %d ", n, (n % 10));
 
 	if ((n % 10) > 5)
-	{	
+	{
 		printf("and is greater than 5\n");
 	}
 	else if ((n % 10) == 0)
